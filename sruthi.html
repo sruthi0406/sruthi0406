@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTech CSE Student Portfolio</title>
+    <style>
+        /* General reset and styling */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Header styling */
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        /* About Section */
+        #about {
+            background-color: #fff;
+            padding: 50px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        #about h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        /* Skills Section */
+        #skills {
+            background-color: #e2e2e2;
+            padding: 50px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        #skills h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .skill-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 150px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .skill-item h3 {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        /* Projects Section */
+        #projects {
+            background-color: #fff;
+            padding: 50px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        #projects h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .project-item {
+            background-color: #f0f0f0;
+            padding: 20px;
+            width: 250px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-item h3 {
+            font-size: 1.4em;
+            color: #333;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #333;
+            color: #fff;
+            padding: 50px;
+            margin: 20px 0;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4cae4c;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>BTech CSE Student Portfolio</h1>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate Computer Science Engineering student with a deep interest in software development, AI, and problem-solving. I enjoy learning new technologies and applying them in real-world projects.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <div class="skill-item">
+                <h3>Python</h3>
+            </div>
+            <div class="skill-item">
+                <h3>C++</h3>
+            </div>
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-item">
+                <h3>HTML & CSS</h3>
+            </div>
+            <div class="skill-item">
+                <h3>React</h3>
+            </div>
+            <div class="skill-item">
+                <h3>SQL</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Weather App</h3>
+                <p>A simple weather application built using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-item">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website created with HTML and CSS to showcase my skills and projects.</p>
+            </div>
+            <div class="project-item">
+                <h3>Todo App</h3>
+                <p>A task manager app developed using React and Firebase for real-time updates.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-form">
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
